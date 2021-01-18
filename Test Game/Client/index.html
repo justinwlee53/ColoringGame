@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my game</title>
+    <link rel="stylesheet" href="css/master.css">
+  </head>
+
+  <body>
+
+    <canvas height = "400" width = "400">
+      
+    </canvas>
+
+    <div class="controls-wrapper">
+      <ul id = "events">
+
+      </ul>
+
+      <div class="controls">
+        <div class="chat-wrapper">
+          <form id = "chat-form">
+            <input type="text" id = "chat" title = "chat">
+            <button id = "say">Say</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "src/client.js"></script>
+  </body>
+
+
+</html>
